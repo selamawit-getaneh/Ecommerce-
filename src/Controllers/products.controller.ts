@@ -7,7 +7,7 @@ import { FileInterceptor } from "@nestjs/platform-express";
 import { UpdateProductDto } from "src/Dto/Product/update-productDto";
 
 import { request } from "http";
-import { AuthorizationGuard } from "Gurad/AuthorizationGuard";
+import { AuthorizationGuard } from "src/Gurad/AuthorizationGuard";
 
 
 

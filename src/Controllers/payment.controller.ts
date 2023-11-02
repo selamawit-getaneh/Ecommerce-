@@ -1,7 +1,8 @@
 import { Body, Controller, Param, Patch, Post, SetMetadata, UseGuards } from "@nestjs/common";
-import { AuthorizationGuard } from "Gurad/AuthorizationGuard";
+
 import { CreatePaymenttDto } from "src/Dto/payment/create-payment-dto";
 import { UpdatePaymenttDto } from "src/Dto/payment/update-payment-dto";
+import { AuthorizationGuard } from "src/Gurad/AuthorizationGuard";
 import { PaymentService } from "src/Services/payment.service";
 
 
